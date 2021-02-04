@@ -1,0 +1,89 @@
+/*
+@media (max-width: 1145px) {
+	.video-1,
+	.video-2 {
+		width: 300px;
+		background: red;
+	}
+}
+
+@media (max-width: 630px) {
+	.video-1,
+	.video-2 {
+		width: 150px;
+		height: 200px;
+		background: blue;
+	}
+	.video-2 {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.video-2 {
+		display: block;
+	}
+
+}*/
+
+
+
+/*practice#2 - wrap*/
+/*@media (max-width: 1015px) {
+	.flex-wraper {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}*/
+
+
+/*practice#3 - column*/
+@media (max-width: 1015px) {
+	.flex-wraper {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.video-3 {
+		margin-top: 30px;
+	}
+
+}
+
+/*@media (max-width: 557px) {
+	.images-wraper {
+		justify-content: center;
+	}
+}*/
+
+/*@media (max-width: 1090px) {
+	.images-wraper {
+		flex-direction: column;
+		align-items: center;
+	}
+}*/
+
+@media (max-width: 1115px) {
+	.image-box {
+		width: 48%;
+	}
+}
+
+@media (max-width: 480px)  {
+	.image-box {
+		width: 100%;
+	}
+}
+
+
+
+
+
+/*Responsive header*/
+@media (max-width: 768px) {
+	.navigation {
+		display: none;
+	}
+	.burger-icon {
+		display: block;
+	}
+}

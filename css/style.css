@@ -1,0 +1,70 @@
+.container {
+	max-width: 1170px;
+	width:100%;
+	margin: 0 auto;
+}
+/*practice- width & height*/
+.flex-wraper {
+	display: flex;
+	justify-content: space-between;
+	/*flex-wrap: wrap;*/
+}
+.video-1 {
+	width: 570px;
+	height: 320px;
+	background-color: grey;
+}
+.video-2 {
+	width: 570px;
+	height: 320px;
+	background-color: lightblue;
+}
+
+
+/*practice - display flex*/
+.video-3 {
+	max-width: 500px;
+	width:100%;
+	height: 320px;
+	background-color: yellow;
+}
+.video-4 {
+	max-width: 500px;
+	width: 100%;
+	height: 320px;
+	background-color: red;
+}
+
+/*Images-practice*/
+.images-wraper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.image-box {
+	width: 270px;
+}
+.image-box img {
+	width: 100%;
+}
+
+
+/*header*/
+.header-wraper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: grey;
+}
+.nav-ul {
+	display: flex;
+}
+li {
+	margin-right: 15px;
+}
+.burger-icon {
+	font-size: 30px;
+	color: #fff;
+	margin-right: 30px;
+	display: none;
+}
